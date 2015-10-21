@@ -4,11 +4,11 @@
   "author": "John Otander",
   "version": "0.0.1",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "test": "mocha test"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,6 @@
   "homepage": "https://github.com/johnotander/vendor-prefixes",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "*"
+    "ava": "*"
   }
 }

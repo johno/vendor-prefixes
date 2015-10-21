@@ -1,6 +1,6 @@
-'use strict';
+'use strict'
 
-module.exports = function vendorPrefixes() {
+module.exports = function vendorPrefixes () {
   return [
     '-ms-', 'mso-', // Microsoft
     '-moz-',	      // Mozilla
@@ -15,5 +15,5 @@ module.exports = function vendorPrefixes() {
     '-ro-',         //	Real Objects
     '-rim-',        //	Research In Motion
     '-tc-'          //	TallComponents
-  ];
+  ]
 }

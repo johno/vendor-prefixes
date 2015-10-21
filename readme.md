@@ -1,10 +1,6 @@
-# vendor-prefixes
+# vendor-prefixes [![Build Status](https://secure.travis-ci.org/johnotander/vendor-prefixes.png?branch=master)](https://travis-ci.org/johnotander/vendor-prefixes) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-[![Build Status](https://secure.travis-ci.org/johnotander/vendor-prefixes.png?branch=master)](https://travis-ci.org/johnotander/vendor-prefixes)
-
-List of the current CSS vendor prefixes.
-
-<http://www.w3.org/TR/CSS21/syndata.html#vendor-keyword-history>
+List of the current CSS [vendor prefixes](http://www.w3.org/TR/CSS21/syndata.html#vendor-keyword-history).
 
 ## Installation
 
@@ -15,9 +11,10 @@ npm install --save vendor-prefixes
 ## Usage
 
 ```javascript
-var vendorPrefixes = require('vendor-prefixes');
+var vendorPrefixes = require('vendor-prefixes')
 
-vendorPrefixes();  // => ['-webkit-', '-moz-', ...]
+vendorPrefixes()
+// => ['-webkit-', '-moz-', ...]
 ```
 
 ## License
